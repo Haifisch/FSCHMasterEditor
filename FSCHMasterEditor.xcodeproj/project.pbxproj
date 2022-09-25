@@ -7,13 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B92B235328D671D800A78F39 /* PreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = B92B235128D671D800A78F39 /* PreferencePane.m */; };
+		B92B235428D671D800A78F39 /* PreferencePane.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92B235228D671D800A78F39 /* PreferencePane.xib */; };
+		B92B235728D6744400A78F39 /* PreferencesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B92B235628D6744400A78F39 /* PreferencesManager.m */; };
+		B949CB8428DA76C9002C81CD /* CollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B949CB8328DA76C9002C81CD /* CollectionLayout.m */; };
 		B96675EC28CBF33B00C2ECCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B96675EB28CBF33B00C2ECCE /* AppDelegate.m */; };
 		B96675EE28CBF33D00C2ECCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96675ED28CBF33D00C2ECCE /* Assets.xcassets */; };
 		B96675F128CBF33D00C2ECCE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96675EF28CBF33D00C2ECCE /* MainMenu.xib */; };
 		B96675F328CBF33D00C2ECCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B96675F228CBF33D00C2ECCE /* main.m */; };
+		B96675FD28CBF81000C2ECCE /* ROMHeaderViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = B96675FB28CBF81000C2ECCE /* ROMHeaderViewer.m */; };
+		B96675FE28CBF81000C2ECCE /* ROMHeaderViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96675FC28CBF81000C2ECCE /* ROMHeaderViewer.xib */; };
+		B966760228CBFA5900C2ECCE /* RHMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B966760028CBFA5900C2ECCE /* RHMainWindow.m */; };
+		B966760328CBFA5900C2ECCE /* RHMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B966760128CBFA5900C2ECCE /* RHMainWindow.xib */; };
+		B966760728CC226C00C2ECCE /* IBMPlexMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B966760428CC226C00C2ECCE /* IBMPlexMono-Bold.ttf */; };
+		B966760828CC226C00C2ECCE /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B966760528CC226C00C2ECCE /* IBMPlexMono-Regular.ttf */; };
+		B966760928CC226C00C2ECCE /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B966760628CC226C00C2ECCE /* IBMPlexMono-Light.ttf */; };
+		B966761128CDAAE500C2ECCE /* NDSCartridgeData.m in Sources */ = {isa = PBXBuildFile; fileRef = B966761028CDAAE500C2ECCE /* NDSCartridgeData.m */; };
+		B966F64428DD7B4500BFA6D8 /* colorspacehandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B966F63D28DD7B4400BFA6D8 /* colorspacehandler.cpp */; };
+		B966F64E28DD9FA100BFA6D8 /* SyncScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B966F64D28DD9FA100BFA6D8 /* SyncScrollView.m */; };
+		B966F65128DE6DE100BFA6D8 /* PopoverInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B966F65028DE6DE100BFA6D8 /* PopoverInformationView.m */; };
+		B96CBA4528D82D4A00FCC2CA /* HexTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B96CBA4328D82D4A00FCC2CA /* HexTextView.m */; };
+		B96CBA4628D82D4A00FCC2CA /* HexTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96CBA4428D82D4A00FCC2CA /* HexTextView.xib */; };
+		B96CBA4A28D8FE2B00FCC2CA /* AddressTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B96CBA4828D8FE2B00FCC2CA /* AddressTextView.m */; };
+		B96CBA4B28D8FE2B00FCC2CA /* AddressTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96CBA4928D8FE2B00FCC2CA /* AddressTextView.xib */; };
+		B96CBA4F28DA671800FCC2CA /* ASCIITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B96CBA4D28DA671800FCC2CA /* ASCIITextView.m */; };
+		B96CBA5028DA671800FCC2CA /* ASCIITextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96CBA4E28DA671800FCC2CA /* ASCIITextView.xib */; };
+		B9A79A2128DFDE3100966F34 /* NSString+WordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A79A2028DFDE3100966F34 /* NSString+WordCount.m */; };
+		B9A79A2528DFEEC100966F34 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9A79A2428DFEEC100966F34 /* README.txt */; };
+		B9A79A2A28DFF08600966F34 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A79A2928DFF08600966F34 /* Cocoa.framework */; };
+		B9A79A2C28DFF08A00966F34 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A79A2B28DFF08A00966F34 /* AppKit.framework */; };
+		B9B4B4F428D5786000F629E1 /* ColorGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B4B4F328D5786000F629E1 /* ColorGenerator.m */; };
+		B9B4B4F628D57B6A00F629E1 /* ndsheaderspec.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9B4B4F528D57B6A00F629E1 /* ndsheaderspec.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B92B235028D671D800A78F39 /* PreferencePane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferencePane.h; sourceTree = "<group>"; };
+		B92B235128D671D800A78F39 /* PreferencePane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferencePane.m; sourceTree = "<group>"; };
+		B92B235228D671D800A78F39 /* PreferencePane.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencePane.xib; sourceTree = "<group>"; };
+		B92B235528D6744400A78F39 /* PreferencesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferencesManager.h; sourceTree = "<group>"; };
+		B92B235628D6744400A78F39 /* PreferencesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferencesManager.m; sourceTree = "<group>"; };
+		B949CB8228DA76C9002C81CD /* CollectionLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionLayout.h; sourceTree = "<group>"; };
+		B949CB8328DA76C9002C81CD /* CollectionLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionLayout.m; sourceTree = "<group>"; };
 		B96675E728CBF33B00C2ECCE /* FSCHMasterEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSCHMasterEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96675EA28CBF33B00C2ECCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B96675EB28CBF33B00C2ECCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -21,6 +55,56 @@
 		B96675F028CBF33D00C2ECCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B96675F228CBF33D00C2ECCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B96675F428CBF33D00C2ECCE /* FSCHMasterEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FSCHMasterEditor.entitlements; sourceTree = "<group>"; };
+		B96675FA28CBF81000C2ECCE /* ROMHeaderViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROMHeaderViewer.h; sourceTree = "<group>"; };
+		B96675FB28CBF81000C2ECCE /* ROMHeaderViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROMHeaderViewer.m; sourceTree = "<group>"; };
+		B96675FC28CBF81000C2ECCE /* ROMHeaderViewer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ROMHeaderViewer.xib; sourceTree = "<group>"; };
+		B96675FF28CBFA5900C2ECCE /* RHMainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHMainWindow.h; sourceTree = "<group>"; };
+		B966760028CBFA5900C2ECCE /* RHMainWindow.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = RHMainWindow.m; sourceTree = "<group>"; };
+		B966760128CBFA5900C2ECCE /* RHMainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RHMainWindow.xib; sourceTree = "<group>"; };
+		B966760428CC226C00C2ECCE /* IBMPlexMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Bold.ttf"; sourceTree = "<group>"; };
+		B966760528CC226C00C2ECCE /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; };
+		B966760628CC226C00C2ECCE /* IBMPlexMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Light.ttf"; sourceTree = "<group>"; };
+		B966760B28CC66EE00C2ECCE /* NDSCartridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDSCartridge.h; sourceTree = "<group>"; };
+		B966760F28CDAAE500C2ECCE /* NDSCartridgeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDSCartridgeData.h; sourceTree = "<group>"; };
+		B966761028CDAAE500C2ECCE /* NDSCartridgeData.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NDSCartridgeData.m; sourceTree = "<group>"; };
+		B966F63428DD7B4400BFA6D8 /* colorspacehandler_AVX512.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_AVX512.cpp; sourceTree = "<group>"; };
+		B966F63528DD7B4400BFA6D8 /* colorspacehandler_SSE2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_SSE2.h; sourceTree = "<group>"; };
+		B966F63628DD7B4400BFA6D8 /* colorspacehandler_AVX512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_AVX512.h; sourceTree = "<group>"; };
+		B966F63728DD7B4400BFA6D8 /* colorspacehandler_AVX2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_AVX2.cpp; sourceTree = "<group>"; };
+		B966F63828DD7B4400BFA6D8 /* colorspacehandler_NEON.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_NEON.cpp; sourceTree = "<group>"; };
+		B966F63928DD7B4400BFA6D8 /* colorspacehandler_NEON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_NEON.h; sourceTree = "<group>"; };
+		B966F63A28DD7B4400BFA6D8 /* colorspacehandler_AVX2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_AVX2.h; sourceTree = "<group>"; };
+		B966F63B28DD7B4400BFA6D8 /* colorspacehandler_SSE2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_SSE2.cpp; sourceTree = "<group>"; };
+		B966F63C28DD7B4400BFA6D8 /* colorspacehandler_AltiVec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_AltiVec.h; sourceTree = "<group>"; };
+		B966F63D28DD7B4400BFA6D8 /* colorspacehandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler.cpp; sourceTree = "<group>"; };
+		B966F63E28DD7B4400BFA6D8 /* colorspacehandler_AltiVec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_AltiVec.cpp; sourceTree = "<group>"; };
+		B966F63F28DD7B4400BFA6D8 /* colorspacehandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler.h; sourceTree = "<group>"; };
+		B966F64628DD7B5A00BFA6D8 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		B966F64728DD7B9B00BFA6D8 /* retro_miscellaneous.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = retro_miscellaneous.h; sourceTree = "<group>"; };
+		B966F64828DD7BAE00BFA6D8 /* retro_inline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = retro_inline.h; sourceTree = "<group>"; };
+		B966F64928DD9E7B00BFA6D8 /* FSCHMasterEditor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSCHMasterEditor-Bridging-Header.h"; sourceTree = "<group>"; };
+		B966F64C28DD9FA100BFA6D8 /* SyncScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncScrollView.h; sourceTree = "<group>"; };
+		B966F64D28DD9FA100BFA6D8 /* SyncScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncScrollView.m; sourceTree = "<group>"; };
+		B966F64F28DE6DE100BFA6D8 /* PopoverInformationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopoverInformationView.h; sourceTree = "<group>"; };
+		B966F65028DE6DE100BFA6D8 /* PopoverInformationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoverInformationView.m; sourceTree = "<group>"; };
+		B96CBA4228D82D4A00FCC2CA /* HexTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HexTextView.h; sourceTree = "<group>"; };
+		B96CBA4328D82D4A00FCC2CA /* HexTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexTextView.m; sourceTree = "<group>"; };
+		B96CBA4428D82D4A00FCC2CA /* HexTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HexTextView.xib; sourceTree = "<group>"; };
+		B96CBA4728D8FE2B00FCC2CA /* AddressTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressTextView.h; sourceTree = "<group>"; };
+		B96CBA4828D8FE2B00FCC2CA /* AddressTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressTextView.m; sourceTree = "<group>"; };
+		B96CBA4928D8FE2B00FCC2CA /* AddressTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressTextView.xib; sourceTree = "<group>"; };
+		B96CBA4C28DA671800FCC2CA /* ASCIITextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCIITextView.h; sourceTree = "<group>"; };
+		B96CBA4D28DA671800FCC2CA /* ASCIITextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASCIITextView.m; sourceTree = "<group>"; };
+		B96CBA4E28DA671800FCC2CA /* ASCIITextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ASCIITextView.xib; sourceTree = "<group>"; };
+		B9A79A1F28DFDE3100966F34 /* NSString+WordCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WordCount.h"; sourceTree = "<group>"; };
+		B9A79A2028DFDE3100966F34 /* NSString+WordCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WordCount.m"; sourceTree = "<group>"; };
+		B9A79A2428DFEEC100966F34 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		B9A79A2728DFF07D00966F34 /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = System/Library/Frameworks/CryptoKit.framework; sourceTree = SDKROOT; };
+		B9A79A2928DFF08600966F34 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B9A79A2B28DFF08A00966F34 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B9B4B4F228D5786000F629E1 /* ColorGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorGenerator.h; sourceTree = "<group>"; };
+		B9B4B4F328D5786000F629E1 /* ColorGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorGenerator.m; sourceTree = "<group>"; };
+		B9B4B4F528D57B6A00F629E1 /* ndsheaderspec.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ndsheaderspec.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A79A2C28DFF08A00966F34 /* AppKit.framework in Frameworks */,
+				B9A79A2A28DFF08600966F34 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +125,7 @@
 			children = (
 				B96675E928CBF33B00C2ECCE /* FSCHMasterEditor */,
 				B96675E828CBF33B00C2ECCE /* Products */,
+				B9A79A2628DFF07D00966F34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,14 +140,118 @@
 		B96675E928CBF33B00C2ECCE /* FSCHMasterEditor */ = {
 			isa = PBXGroup;
 			children = (
+				B9A79A2328DFDE5000966F34 /* prefs */,
+				B9A79A2228DFDE3C00966F34 /* nds */,
+				B966760A28CC227500C2ECCE /* fonts */,
 				B96675EA28CBF33B00C2ECCE /* AppDelegate.h */,
 				B96675EB28CBF33B00C2ECCE /* AppDelegate.m */,
+				B96675FA28CBF81000C2ECCE /* ROMHeaderViewer.h */,
+				B96675FB28CBF81000C2ECCE /* ROMHeaderViewer.m */,
+				B96675FC28CBF81000C2ECCE /* ROMHeaderViewer.xib */,
+				B96675FF28CBFA5900C2ECCE /* RHMainWindow.h */,
+				B966760028CBFA5900C2ECCE /* RHMainWindow.m */,
+				B966760128CBFA5900C2ECCE /* RHMainWindow.xib */,
+				B966F64F28DE6DE100BFA6D8 /* PopoverInformationView.h */,
+				B966F65028DE6DE100BFA6D8 /* PopoverInformationView.m */,
+				B9B4B4F228D5786000F629E1 /* ColorGenerator.h */,
+				B9B4B4F328D5786000F629E1 /* ColorGenerator.m */,
+				B9A79A1F28DFDE3100966F34 /* NSString+WordCount.h */,
+				B9A79A2028DFDE3100966F34 /* NSString+WordCount.m */,
+				B96CBA3C28D8299600FCC2CA /* CustomViews */,
+				B9B4B4F528D57B6A00F629E1 /* ndsheaderspec.plist */,
 				B96675ED28CBF33D00C2ECCE /* Assets.xcassets */,
 				B96675EF28CBF33D00C2ECCE /* MainMenu.xib */,
 				B96675F228CBF33D00C2ECCE /* main.m */,
 				B96675F428CBF33D00C2ECCE /* FSCHMasterEditor.entitlements */,
+				B966F64928DD9E7B00BFA6D8 /* FSCHMasterEditor-Bridging-Header.h */,
 			);
 			path = FSCHMasterEditor;
+			sourceTree = "<group>";
+		};
+		B966760A28CC227500C2ECCE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B966760428CC226C00C2ECCE /* IBMPlexMono-Bold.ttf */,
+				B966760628CC226C00C2ECCE /* IBMPlexMono-Light.ttf */,
+				B966760528CC226C00C2ECCE /* IBMPlexMono-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		B966F63328DD7B4400BFA6D8 /* colorspacehandler */ = {
+			isa = PBXGroup;
+			children = (
+				B966F63428DD7B4400BFA6D8 /* colorspacehandler_AVX512.cpp */,
+				B966F63528DD7B4400BFA6D8 /* colorspacehandler_SSE2.h */,
+				B966F63628DD7B4400BFA6D8 /* colorspacehandler_AVX512.h */,
+				B966F63728DD7B4400BFA6D8 /* colorspacehandler_AVX2.cpp */,
+				B966F63828DD7B4400BFA6D8 /* colorspacehandler_NEON.cpp */,
+				B966F63928DD7B4400BFA6D8 /* colorspacehandler_NEON.h */,
+				B966F63A28DD7B4400BFA6D8 /* colorspacehandler_AVX2.h */,
+				B966F63B28DD7B4400BFA6D8 /* colorspacehandler_SSE2.cpp */,
+				B966F63C28DD7B4400BFA6D8 /* colorspacehandler_AltiVec.h */,
+				B966F63D28DD7B4400BFA6D8 /* colorspacehandler.cpp */,
+				B966F63E28DD7B4400BFA6D8 /* colorspacehandler_AltiVec.cpp */,
+				B966F63F28DD7B4400BFA6D8 /* colorspacehandler.h */,
+			);
+			path = colorspacehandler;
+			sourceTree = "<group>";
+		};
+		B96CBA3C28D8299600FCC2CA /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B966F64C28DD9FA100BFA6D8 /* SyncScrollView.h */,
+				B966F64D28DD9FA100BFA6D8 /* SyncScrollView.m */,
+				B96CBA4228D82D4A00FCC2CA /* HexTextView.h */,
+				B96CBA4328D82D4A00FCC2CA /* HexTextView.m */,
+				B96CBA4428D82D4A00FCC2CA /* HexTextView.xib */,
+				B96CBA4728D8FE2B00FCC2CA /* AddressTextView.h */,
+				B96CBA4828D8FE2B00FCC2CA /* AddressTextView.m */,
+				B96CBA4928D8FE2B00FCC2CA /* AddressTextView.xib */,
+				B96CBA4C28DA671800FCC2CA /* ASCIITextView.h */,
+				B96CBA4D28DA671800FCC2CA /* ASCIITextView.m */,
+				B96CBA4E28DA671800FCC2CA /* ASCIITextView.xib */,
+				B949CB8228DA76C9002C81CD /* CollectionLayout.h */,
+				B949CB8328DA76C9002C81CD /* CollectionLayout.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		B9A79A2228DFDE3C00966F34 /* nds */ = {
+			isa = PBXGroup;
+			children = (
+				B966F63328DD7B4400BFA6D8 /* colorspacehandler */,
+				B966F64728DD7B9B00BFA6D8 /* retro_miscellaneous.h */,
+				B966F64628DD7B5A00BFA6D8 /* types.h */,
+				B966F64828DD7BAE00BFA6D8 /* retro_inline.h */,
+				B966760B28CC66EE00C2ECCE /* NDSCartridge.h */,
+				B966760F28CDAAE500C2ECCE /* NDSCartridgeData.h */,
+				B966761028CDAAE500C2ECCE /* NDSCartridgeData.m */,
+				B9A79A2428DFEEC100966F34 /* README.txt */,
+			);
+			path = nds;
+			sourceTree = "<group>";
+		};
+		B9A79A2328DFDE5000966F34 /* prefs */ = {
+			isa = PBXGroup;
+			children = (
+				B92B235028D671D800A78F39 /* PreferencePane.h */,
+				B92B235128D671D800A78F39 /* PreferencePane.m */,
+				B92B235528D6744400A78F39 /* PreferencesManager.h */,
+				B92B235628D6744400A78F39 /* PreferencesManager.m */,
+				B92B235228D671D800A78F39 /* PreferencePane.xib */,
+			);
+			path = prefs;
+			sourceTree = "<group>";
+		};
+		B9A79A2628DFF07D00966F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9A79A2B28DFF08A00966F34 /* AppKit.framework */,
+				B9A79A2928DFF08600966F34 /* Cocoa.framework */,
+				B9A79A2728DFF07D00966F34 /* CryptoKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,10 +281,11 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					B96675E628CBF33B00C2ECCE = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -120,8 +312,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96CBA4B28D8FE2B00FCC2CA /* AddressTextView.xib in Resources */,
+				B966760328CBFA5900C2ECCE /* RHMainWindow.xib in Resources */,
+				B96675FE28CBF81000C2ECCE /* ROMHeaderViewer.xib in Resources */,
+				B9A79A2528DFEEC100966F34 /* README.txt in Resources */,
+				B92B235428D671D800A78F39 /* PreferencePane.xib in Resources */,
 				B96675EE28CBF33D00C2ECCE /* Assets.xcassets in Resources */,
+				B966760728CC226C00C2ECCE /* IBMPlexMono-Bold.ttf in Resources */,
+				B96CBA4628D82D4A00FCC2CA /* HexTextView.xib in Resources */,
+				B96CBA5028DA671800FCC2CA /* ASCIITextView.xib in Resources */,
+				B966760828CC226C00C2ECCE /* IBMPlexMono-Regular.ttf in Resources */,
+				B9B4B4F628D57B6A00F629E1 /* ndsheaderspec.plist in Resources */,
 				B96675F128CBF33D00C2ECCE /* MainMenu.xib in Resources */,
+				B966760928CC226C00C2ECCE /* IBMPlexMono-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +335,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96CBA4A28D8FE2B00FCC2CA /* AddressTextView.m in Sources */,
+				B966F65128DE6DE100BFA6D8 /* PopoverInformationView.m in Sources */,
+				B966760228CBFA5900C2ECCE /* RHMainWindow.m in Sources */,
 				B96675F328CBF33D00C2ECCE /* main.m in Sources */,
+				B966F64E28DD9FA100BFA6D8 /* SyncScrollView.m in Sources */,
+				B96675FD28CBF81000C2ECCE /* ROMHeaderViewer.m in Sources */,
+				B96CBA4528D82D4A00FCC2CA /* HexTextView.m in Sources */,
+				B9A79A2128DFDE3100966F34 /* NSString+WordCount.m in Sources */,
 				B96675EC28CBF33B00C2ECCE /* AppDelegate.m in Sources */,
+				B92B235728D6744400A78F39 /* PreferencesManager.m in Sources */,
+				B949CB8428DA76C9002C81CD /* CollectionLayout.m in Sources */,
+				B966761128CDAAE500C2ECCE /* NDSCartridgeData.m in Sources */,
+				B966F64428DD7B4500BFA6D8 /* colorspacehandler.cpp in Sources */,
+				B96CBA4F28DA671800FCC2CA /* ASCIITextView.m in Sources */,
+				B92B235328D671D800A78F39 /* PreferencePane.m in Sources */,
+				B9B4B4F428D5786000F629E1 /* ColorGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +401,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -242,6 +460,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -265,13 +484,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = FSCHMasterEditor/FSCHMasterEditor.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GH664RVXEQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "FSCH's Master Editor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -283,6 +509,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = software.iwantmyapdemote.FSCHMasterEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FSCHMasterEditor/FSCHMasterEditor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -291,13 +520,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = FSCHMasterEditor/FSCHMasterEditor.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GH664RVXEQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "FSCH's Master Editor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -309,6 +545,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = software.iwantmyapdemote.FSCHMasterEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FSCHMasterEditor/FSCHMasterEditor-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

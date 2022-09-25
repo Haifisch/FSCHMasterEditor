@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Game Title</key>
+	<dict>
+		<key>type</key>
+		<string>string</string>
+		<key>size</key>
+		<integer>12</integer>
+		<key>offset</key>
+		<integer>0</integer>
+	</dict>
+	<key>Gamecode</key>
+	<dict>
+		<key>type</key>
+		<string>string</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>12</integer>
+	</dict>
+	<key>Makercode</key>
+	<dict>
+		<key>type</key>
+		<string>string</string>
+		<key>size</key>
+		<integer>2</integer>
+		<key>offset</key>
+		<integer>16</integer>
+	</dict>
+	<key>Unitcode</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>1</integer>
+		<key>offset</key>
+		<integer>18</integer>
+	</dict>
+	<key>Encryption Seed Select</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>1</integer>
+		<key>offset</key>
+		<integer>19</integer>
+	</dict>
+	<key>Devicecapacity</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>1</integer>
+		<key>offset</key>
+		<integer>20</integer>
+	</dict>
+	<key>Reserved</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>7</integer>
+		<key>offset</key>
+		<integer>21</integer>
+	</dict>
+	<key>Header CRC-16</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>2</integer>
+		<key>offset</key>
+		<integer>350</integer>
+	</dict>
+	<key>Secure Area CRC-16</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>2</integer>
+		<key>offset</key>
+		<integer>108</integer>
+	</dict>
+	<key>NDS Region</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>1</integer>
+		<key>offset</key>
+		<integer>29</integer>
+	</dict>
+	<key>ROM Version</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>1</integer>
+		<key>offset</key>
+		<integer>30</integer>
+	</dict>
+	<key>Autostart</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>1</integer>
+		<key>offset</key>
+		<integer>31</integer>
+	</dict>
+	<key>ARM9 ROM Offset</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>32</integer>
+	</dict>
+	<key>ARM9 Entry Address</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>36</integer>
+	</dict>
+	<key>ARM9 RAM Address</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>40</integer>
+	</dict>
+	<key>ARM9 ROM Size</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>44</integer>
+	</dict>
+	<key>ARM7 ROM Offset</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>48</integer>
+	</dict>
+	<key>ARM7 Entry Address</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>52</integer>
+	</dict>
+	<key>ARM7 RAM Address</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>56</integer>
+	</dict>
+	<key>ARM7 ROM Size</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>60</integer>
+	</dict>
+	<key>Icon / Title Offset </key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>104</integer>
+	</dict>
+	<key>File Name Table (FNT) offset</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>64</integer>
+	</dict>
+	<key>File Name Table (FNT) size</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>68</integer>
+	</dict>
+	<key>File Allocation Table (FAT) offset</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>72</integer>
+	</dict>
+	<key>File Allocation Table (FAT) size</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>76</integer>
+	</dict>
+	<key>Title ID Emagcode</key>
+	<dict>
+		<key>type</key>
+		<string>string</string>
+		<key>size</key>
+		<integer>4</integer>
+		<key>offset</key>
+		<integer>560</integer>
+	</dict>
+	<key>Title ID Filetype</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>1</integer>
+		<key>offset</key>
+		<integer>564</integer>
+	</dict>
+	<key>Reserved NDS / DSi Flags</key>
+	<dict>
+		<key>type</key>
+		<string>hex</string>
+		<key>size</key>
+		<integer>1</integer>
+		<key>offset</key>
+		<integer>28</integer>
+	</dict>
+</dict>
+</plist>

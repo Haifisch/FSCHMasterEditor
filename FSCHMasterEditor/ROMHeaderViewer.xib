@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21225" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21225"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ROMHeaderViewer">
+            <connections>
+                <outlet property="filenameLabel" destination="BjM-aG-j0J" id="pre-TS-NKA"/>
+                <outlet property="progressView" destination="qOm-re-aAC" id="wdG-Ty-zlB"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Fisch's &quot;MasterEditor&quot;" subtitle="made with &lt;3" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="736" y="510" width="480" height="148"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1175"/>
+            <value key="minSize" type="size" width="480" height="148"/>
+            <value key="maxSize" type="size" width="480" height="148"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="148"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KPo-eb-jaX">
+                        <rect key="frame" x="74" y="33" width="332" height="15"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="File formats supported currently; .nds / .srl" id="Efm-td-QQB">
+                            <font key="font" size="12" name="IBMPlexMono-Light"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6bQ-mz-cKS">
+                        <rect key="frame" x="90" y="10" width="300" height="15"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="future formats; .tad / .cia / .cci" id="gqH-ZM-reE">
+                            <font key="font" size="12" name="IBMPlexMono-Light"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eSi-12-gNd">
+                        <rect key="frame" x="183" y="57" width="114" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="Zcu-da-BRj"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="Select File" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fDJ-Xf-itH">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="openFileDialog:" target="-1" id="XSL-3o-5pI"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="BjM-aG-j0J">
+                        <rect key="frame" x="-2" y="102" width="484" height="26"/>
+                        <textFieldCell key="cell" selectable="YES" alignment="center" title="~ no file selected ~" id="Nzx-Qx-69p">
+                            <font key="font" size="16" name="IBMPlexMono-Regular"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <progressIndicator hidden="YES" maxValue="100" displayedWhenStopped="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="qOm-re-aAC">
+                        <rect key="frame" x="304" y="58" width="32" height="32"/>
+                    </progressIndicator>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eSi-12-gNd" firstAttribute="centerX" secondItem="KPo-eb-jaX" secondAttribute="centerX" id="4Kc-15-G2P"/>
+                    <constraint firstItem="eSi-12-gNd" firstAttribute="centerY" secondItem="se5-gp-TjO" secondAttribute="centerY" id="8ZP-0g-Rcn"/>
+                    <constraint firstItem="6bQ-mz-cKS" firstAttribute="top" secondItem="KPo-eb-jaX" secondAttribute="bottom" constant="8" symbolic="YES" id="Anl-Xf-53X"/>
+                    <constraint firstItem="BjM-aG-j0J" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="20" symbolic="YES" id="KBy-f1-lut"/>
+                    <constraint firstAttribute="trailing" secondItem="BjM-aG-j0J" secondAttribute="trailing" id="Ka3-Le-cES"/>
+                    <constraint firstItem="BjM-aG-j0J" firstAttribute="centerX" secondItem="eSi-12-gNd" secondAttribute="centerX" id="Ry0-Ev-Hye"/>
+                    <constraint firstItem="qOm-re-aAC" firstAttribute="leading" secondItem="eSi-12-gNd" secondAttribute="trailing" constant="14" id="S0s-ll-0kV"/>
+                    <constraint firstAttribute="bottom" secondItem="6bQ-mz-cKS" secondAttribute="bottom" constant="10" id="ZYi-Ru-o3v"/>
+                    <constraint firstItem="qOm-re-aAC" firstAttribute="top" secondItem="BjM-aG-j0J" secondAttribute="bottom" constant="12" id="gav-cn-z5Q"/>
+                    <constraint firstItem="BjM-aG-j0J" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" id="gce-6v-u07"/>
+                    <constraint firstItem="KPo-eb-jaX" firstAttribute="centerX" secondItem="6bQ-mz-cKS" secondAttribute="centerX" id="o2v-Xd-O0b"/>
+                    <constraint firstItem="KPo-eb-jaX" firstAttribute="top" secondItem="qOm-re-aAC" secondAttribute="bottom" constant="10" id="ojn-to-1LR"/>
+                    <constraint firstItem="6bQ-mz-cKS" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="92" id="pGl-WH-HFh"/>
+                    <constraint firstItem="eSi-12-gNd" firstAttribute="centerY" secondItem="qOm-re-aAC" secondAttribute="centerY" id="tse-dC-8Wn"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="80"/>
+        </window>
+    </objects>
+</document>

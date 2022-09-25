@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21225"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="System colors introduced in macOS 10.14" minToolsVersion="10.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,6 +16,7 @@
                 <outlet property="asciiCollectionView" destination="zN0-f1-Xc3" id="kKK-gi-Pff"/>
                 <outlet property="asciiScrollView" destination="oJN-ez-g6t" id="iAP-bk-UG4"/>
                 <outlet property="bannerIconImageView" destination="Yip-aj-BNi" id="iDj-Eu-vfh"/>
+                <outlet property="checksumPanel" destination="ORe-Xc-7g3" id="3Sq-xX-PG4"/>
                 <outlet property="hexClipView" destination="oWM-y6-bnz" id="IfF-ah-BYt"/>
                 <outlet property="hexCollectionView" destination="ddQ-32-EFo" id="pcF-Pv-sEN"/>
                 <outlet property="hexScrollView" destination="RVn-vP-Ghw" id="ltQ-jm-F4T"/>
@@ -34,7 +34,7 @@
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1175"/>
             <view key="contentView" id="se5-gp-TjO">
                 <rect key="frame" x="0.0" y="0.0" width="1519" height="800"/>
-                <autoresizingMask key="autoresizingMask"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <scrollView identifier="HexScrollview" autoresizesSubviews="NO" wantsLayer="YES" fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" verticalScrollElasticity="none" translatesAutoresizingMaskIntoConstraints="NO" id="RVn-vP-Ghw" customClass="SyncScrollView">
                         <rect key="frame" x="48" y="0.0" width="420" height="800"/>
@@ -248,21 +248,6 @@
                     </box>
                 </subviews>
             </view>
-            <toolbar key="toolbar" implicitIdentifier="C61E93F9-D32E-41CA-B521-1A6987EEEA52" autosavesConfiguration="NO" allowsUserCustomization="NO" showsBaselineSeparator="NO" displayMode="iconAndLabel" sizeMode="small" id="lyE-76-yK4">
-                <allowedToolbarItems>
-                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="opB-Sh-3Yo"/>
-                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="JgZ-fh-ozp"/>
-                    <toolbarItem implicitItemIdentifier="ADA2508A-58EF-4D3E-8284-55919E98F8B8" label="SHA256" paletteLabel="" tag="-1" sizingBehavior="auto" id="HDj-6Q-bbs">
-                        <imageReference key="image" image="pawprint.fill" catalog="system" symbolScale="large"/>
-                        <connections>
-                            <action selector="showROMFingerprint:" target="-2" id="jXv-ML-oyP"/>
-                        </connections>
-                    </toolbarItem>
-                </allowedToolbarItems>
-                <defaultToolbarItems>
-                    <toolbarItem reference="HDj-6Q-bbs"/>
-                </defaultToolbarItems>
-            </toolbar>
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
             </connections>
@@ -307,9 +292,30 @@
             </connections>
             <point key="canvasLocation" x="1331.5" y="-377"/>
         </customView>
+        <window title="Checksum" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" releasedWhenClosed="NO" frameAutosaveName="" animationBehavior="default" id="ORe-Xc-7g3" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES" HUD="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="131" width="276" height="75"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1175"/>
+            <view key="contentView" id="IAa-GY-TKp">
+                <rect key="frame" x="0.0" y="0.0" width="276" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lqw-gn-OHM">
+                        <rect key="frame" x="6" y="20" width="265" height="35"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" selectable="YES" alignment="center" title="Multiline Label" id="h7L-cz-uub">
+                            <font key="font" usesAppearanceFont="YES"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="1597" y="-38.5"/>
+        </window>
     </objects>
     <resources>
         <image name="nosign" catalog="system" width="15" height="15"/>
-        <image name="pawprint.fill" catalog="system" width="22" height="20"/>
     </resources>
 </document>

@@ -385,11 +385,4 @@
     [[NSPasteboard generalPasteboard] setString:selectedValue forType:NSPasteboardTypeString];
 }
 
-- (IBAction)showROMFingerprint:(id)sender {
-    NSToolbarItem *btn = (NSToolbarItem *)sender;
-    [(PopoverInformationView *)[[self.popoverView contentViewController] view] setShowingSHASUM:[cartridgeData ROMSHA256]];
-    [self.popoverView showRelativeToRect:[btn view].frame ofView:[self window].contentView preferredEdge:NSRectEdgeMinY];
-    popoverIsShown = true;
-}
-
 @end

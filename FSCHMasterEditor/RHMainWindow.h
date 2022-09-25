@@ -39,6 +39,8 @@ typedef void (^completionBlock)(bool param1);
 @property (strong) IBOutlet NSPopover *popoverView;
 @property (strong) IBOutlet NSImageView *bannerIconImageView;
 
+@property (strong) IBOutlet NSPanel *checksumPanel;
+
 
 - (instancetype)initWithPathToROM:(NSURL *)romPath delegate:(id <RHMainWindowDelegate>)delegate;
 - (void)setROMPath:(NSURL *)path;

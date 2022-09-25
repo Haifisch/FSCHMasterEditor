@@ -41,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B92A7D9428E01AFA0018647C /* colorspacehandler_SSE2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_SSE2.h; sourceTree = "<group>"; };
+		B92A7D9528E01AFA0018647C /* colorspacehandler_SSE2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_SSE2.cpp; sourceTree = "<group>"; };
 		B92B235028D671D800A78F39 /* PreferencePane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferencePane.h; sourceTree = "<group>"; };
 		B92B235128D671D800A78F39 /* PreferencePane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferencePane.m; sourceTree = "<group>"; };
 		B92B235228D671D800A78F39 /* PreferencePane.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencePane.xib; sourceTree = "<group>"; };
@@ -67,17 +69,7 @@
 		B966760B28CC66EE00C2ECCE /* NDSCartridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDSCartridge.h; sourceTree = "<group>"; };
 		B966760F28CDAAE500C2ECCE /* NDSCartridgeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDSCartridgeData.h; sourceTree = "<group>"; };
 		B966761028CDAAE500C2ECCE /* NDSCartridgeData.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NDSCartridgeData.m; sourceTree = "<group>"; };
-		B966F63428DD7B4400BFA6D8 /* colorspacehandler_AVX512.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_AVX512.cpp; sourceTree = "<group>"; };
-		B966F63528DD7B4400BFA6D8 /* colorspacehandler_SSE2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_SSE2.h; sourceTree = "<group>"; };
-		B966F63628DD7B4400BFA6D8 /* colorspacehandler_AVX512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_AVX512.h; sourceTree = "<group>"; };
-		B966F63728DD7B4400BFA6D8 /* colorspacehandler_AVX2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_AVX2.cpp; sourceTree = "<group>"; };
-		B966F63828DD7B4400BFA6D8 /* colorspacehandler_NEON.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_NEON.cpp; sourceTree = "<group>"; };
-		B966F63928DD7B4400BFA6D8 /* colorspacehandler_NEON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_NEON.h; sourceTree = "<group>"; };
-		B966F63A28DD7B4400BFA6D8 /* colorspacehandler_AVX2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_AVX2.h; sourceTree = "<group>"; };
-		B966F63B28DD7B4400BFA6D8 /* colorspacehandler_SSE2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_SSE2.cpp; sourceTree = "<group>"; };
-		B966F63C28DD7B4400BFA6D8 /* colorspacehandler_AltiVec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler_AltiVec.h; sourceTree = "<group>"; };
 		B966F63D28DD7B4400BFA6D8 /* colorspacehandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler.cpp; sourceTree = "<group>"; };
-		B966F63E28DD7B4400BFA6D8 /* colorspacehandler_AltiVec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorspacehandler_AltiVec.cpp; sourceTree = "<group>"; };
 		B966F63F28DD7B4400BFA6D8 /* colorspacehandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspacehandler.h; sourceTree = "<group>"; };
 		B966F64628DD7B5A00BFA6D8 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
 		B966F64728DD7B9B00BFA6D8 /* retro_miscellaneous.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = retro_miscellaneous.h; sourceTree = "<group>"; };
@@ -181,17 +173,9 @@
 		B966F63328DD7B4400BFA6D8 /* colorspacehandler */ = {
 			isa = PBXGroup;
 			children = (
-				B966F63428DD7B4400BFA6D8 /* colorspacehandler_AVX512.cpp */,
-				B966F63528DD7B4400BFA6D8 /* colorspacehandler_SSE2.h */,
-				B966F63628DD7B4400BFA6D8 /* colorspacehandler_AVX512.h */,
-				B966F63728DD7B4400BFA6D8 /* colorspacehandler_AVX2.cpp */,
-				B966F63828DD7B4400BFA6D8 /* colorspacehandler_NEON.cpp */,
-				B966F63928DD7B4400BFA6D8 /* colorspacehandler_NEON.h */,
-				B966F63A28DD7B4400BFA6D8 /* colorspacehandler_AVX2.h */,
-				B966F63B28DD7B4400BFA6D8 /* colorspacehandler_SSE2.cpp */,
-				B966F63C28DD7B4400BFA6D8 /* colorspacehandler_AltiVec.h */,
+				B92A7D9528E01AFA0018647C /* colorspacehandler_SSE2.cpp */,
+				B92A7D9428E01AFA0018647C /* colorspacehandler_SSE2.h */,
 				B966F63D28DD7B4400BFA6D8 /* colorspacehandler.cpp */,
-				B966F63E28DD7B4400BFA6D8 /* colorspacehandler_AltiVec.cpp */,
 				B966F63F28DD7B4400BFA6D8 /* colorspacehandler.h */,
 			);
 			path = colorspacehandler;
